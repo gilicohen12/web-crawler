@@ -1,0 +1,8 @@
+curl 'https://www.3700.network/accounts/login/' \
+  -i \
+  -X POST \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'cookie: csrftoken=JkvH7qg5zpgazxNC5T4tWE2mhZFfb1i4; sessionid=w0y4b2j2xbpu1l4g6famiwnagxzjdv2c' \
+  -H 'origin: https://www.3700.network' \
+  -H 'referer: https://www.3700.network/accounts/login/?next=/fakebook/' \
+    --data-raw 'username=gilicohen&password=c65f399f6eb7dfa16252a116156a3dd249b86660f7a66e374df7ac62e332deaf&csrfmiddlewaretoken=YFxtT4OgUw51taBYx9VKUG3blf3mdIFuxPS0QkUbjLb1SxeqsSP3GaVns4yrezNo&next=%2Ffakebook%2F'
